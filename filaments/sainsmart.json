@@ -3,7 +3,7 @@
     "filaments": [
         {
             "name": "TPU Flexible Filament {color_name}",
-            "material": "Flexible (TPU)",
+            "material": "TPU",
             "density": 1.21,
             "weights": [
                 {
