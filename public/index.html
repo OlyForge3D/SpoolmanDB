@@ -14,7 +14,7 @@
         <div class="header-content">
             <picture>
                 <img alt="Spoolman Logo"
-                    src="https://github.com/Donkie/Spoolman/assets/2332094/4e6e80ac-c7be-4ad2-9a33-dedc1b5ba30e"
+                    src="https://raw.githubusercontent.com/OlyForge3D/Spoolman/master/client/icons/spoolman.svg"
                     class="logo">
             </picture>
         </div>
@@ -23,7 +23,7 @@
     <main>
         <h2>A repository of the latest filament and materials data for 3D printing.</h2>
         <p>This project is open-source, feel free to create a pull request <a
-                href="https://github.com/Donkie/SpoolmanDB"> on Github</a> if you want to add or modify any
+                href="https://github.com/OlyForge3D/SpoolmanDB"> on Github</a> if you want to add or modify any
             data.</p>
         <h2>Data files</h2>
         <div class="data-files">
@@ -41,8 +41,9 @@
     </main>
 
     <footer>
-        <p>SpoolmanDB - 2024</p>
+        <p>SpoolmanDB - <span id="year"></span></p>
     </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 
 </html>
